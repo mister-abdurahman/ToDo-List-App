@@ -4,8 +4,12 @@
   "description": "An intuitive App to manage your schedule",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mister-abdurahman/ToDo-List.git"
   },
   "author": "AbduRahman",
   "license": "ISC",
