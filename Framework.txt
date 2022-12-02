@@ -1,0 +1,20 @@
+Steps: 
+Use MVC pattern
+create folders: Controllers, middlewares, models, routes, test.
+then files: db, app, package.json, server, gitignore, env.
+
+server is where the server is created. App controls and distributes basic & diversed functionalities. 
+One of the reasons we create server and app separately is to make testing possible (according to experience)
+
+Use jwt for authenticating sign in and sign up.
+Use passport-jwt for authenticating certain routes
+
+connect db
+install packages
+create server
+create models
+create authentication & its Controllers
+create routes
+run tests (in package.json, in script, set test to jest, install jest and supertest, run "npm run test")
+...
+BOOM 
